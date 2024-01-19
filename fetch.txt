@@ -1,1 +1,2 @@
 tes
+git@github.com:snackmasta/currone.gitgit@github.com:snackmasta/currone.git
