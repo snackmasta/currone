@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Prompt user for URL input
+read -p "Enter URL: " url
+
+# Extract port using awk
+port=$(echo $url | awk -F: '{print $NF}')
+
+# Echo the extracted port
+echo "Port: $port"
